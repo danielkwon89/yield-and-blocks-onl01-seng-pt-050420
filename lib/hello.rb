@@ -12,4 +12,3 @@ hello_t(["Tim", "Tom", "Jim"])
     puts "Hi, #{name}"
     end #if statement
   end #do keyword
-end # hello_t method
