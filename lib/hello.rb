@@ -4,12 +4,12 @@ def hello_t(array)
     while i < array.length
       yield array[i]
       i += 1
-    end
+    end #while loop
     array
   else
     puts "Hey! No block was given!"
-  end
-end
+  end #if/else statement
+end #hello_t method
 
 hello_t(["Tim", "Tom", "Jim"]) do |name|
     if name.start_with?("T")
